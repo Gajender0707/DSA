@@ -20,7 +20,7 @@ public class geeksforgeeks_pattern_Questions {
 //            System.out.println();
 
 
-            //3. Number-increasing Pyramid Pattern
+        //3. Number-increasing Pyramid Pattern
 
 //        Scanner scn = new Scanner(System.in);
 //        System.out.println("Enter the Number: ");
@@ -37,10 +37,6 @@ public class geeksforgeeks_pattern_Questions {
 //            count++;
 //            System.out.println();
 //        }
-
-
-
-
 
 
         //4. Number-increasing reverse Pyramid Pattern
@@ -62,7 +58,6 @@ public class geeksforgeeks_pattern_Questions {
 //
 
 
-
 //        5. Number-changing Pyramid Pattern
 //                Scanner scn = new Scanner(System.in);
 //                System.out.println("Enter the Number: ");
@@ -77,9 +72,6 @@ public class geeksforgeeks_pattern_Questions {
 //                    count++;
 //                    System.out.println();
 //                }
-
-
-
 
 
         //6.Zero-One Triangle Pattern
@@ -113,6 +105,26 @@ public class geeksforgeeks_pattern_Questions {
 //        }
 
 
+        //7. Palindrome Triangle Pattern
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter the Number: ");
+        int n = scn.nextInt();
+        int nst = 1;
+        int nsp = n-1;
+
+        for (int i = 1; i <= n; i++) {
+
+            for (int k = 1; k <= nsp; k++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= nst; j++) {
+                System.out.print("*");
+
+        }
+        nst = nst + 2;
+        nsp = nsp - 1;
+        System.out.println();
+    }
 
 
 
