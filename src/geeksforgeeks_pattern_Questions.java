@@ -195,10 +195,224 @@ public class geeksforgeeks_pattern_Questions {
 
 
         //10. Butterfly Star Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=1;
+//        int nsp=n-2;
+//        for(int i=1; i<=n; i++){
+//            if(n/2>i){
+//                for(int j=1; j<=nst; j++){
+//                    System.out.print("*");
+//                }
+//                for(int k=1; k<=nsp; k++){
+//                    System.out.print(" ");
+//                }
+//                for(int j=1; j<=nst; j++){
+//                    System.out.print("*");
+//                }
+//
+//                nst++;
+//                nsp=nsp-2;
+//                System.out.println();
+//            }
+//            else if  (i==n/2) {
+//                for(int k=1; k<=n; k++){
+//                    System.out.print("*");
+//                }
+//                System.out.println();
+//
+//            }
+//            else{
+//                for(int j=1; j<=nst; j++){
+//                    System.out.print("*");
+//                }
+//                for(int k=1; k<=nsp; k++){
+//                    System.out.print(" ");
+//                }
+//                for(int j=1; j<=nst; j++){
+//                    System.out.print("*");
+//                }
+//
+//                nst--;
+//                nsp=nsp+2;
+//                System.out.println();
+//            }
+//        }
+
+
+
+
+        //11. Square Fill Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//
+//        int nst=n;
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=n; j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+
+
+
+
+        //12. Right Half Pyramid Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=1;
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nst; j++){
+//                System.out.print("*");
+//            }
+//            nst++;
+//            System.out.println();
+//        }
+
+
+
+
+
+
+
+        //13. Reverse Right Half Pyramid Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=n;
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nst; j++){
+//                System.out.print("*");
+//            }
+//            nst--;
+//            System.out.println();
+//        }
+
+
+
+
+
+        //14. Left Half Pyramid Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nsp=n-1;
+//        int nst=1;
+//
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nsp; j++){
+//                System.out.print(" ");
+//            }
+//            for(int k=1; k<=nst; k++){
+//                System.out.print("*");
+//            }
+//
+//            nsp--;
+//            nst++;
+//            System.out.println();
+//        }
+
+
+
+
+        //15. Reverse Left Half Pyramid Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=n;
+//        int nsp=0;
+//
+//        for(int i=1; i<=n; i++){
+//
+//            for(int k=1; k<=nsp; k++){
+//                System.out.print(" ");
+//            }
+//
+//            for(int j=1; j<=nst; j++){
+//                System.out.print("*");
+//            }
+//            nst--;
+//            nsp++;
+//            System.out.println();
+//        }
+
+
+
+
+
+        //16. Triangle Star Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nsp=n-1;
+//        int nst=1;
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nsp; j++){
+//                System.out.print(" ");
+//            }
+//            for(int k=1; k<=nst; k++){
+//                System.out.print("*"+" ");
+//            }
+//            nsp--;
+//            nst++;
+//            System.out.println();
+//        }
+
+
+
+
+
+        //17. Reverse number Triangle Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nsp=0;
+//        int nst=n;
+//
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nsp; j++){
+//                System.out.print(" ");
+//            }
+//            int num=i;
+//            for(int k=1; k<=nst; k++){
+//                System.out.print(num+" ");
+//                num++;
+//            }
+//            nsp++;
+//            nst--;
+//            System.out.println();
+//        }
+
+
+
+
+
+
+        //18. Mirror Image Triangle Pattern
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the Number: ");
         int n = scn.nextInt();
+        int nsp=0;
+        int nst=n;
 
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=nsp; j++){
+                System.out.print(" ");
+            }
+            int num=i;
+            for(int k=1; k<=nst; k++){
+                System.out.print(num+" ");
+                num++;
+            }
+            nsp++;
+            nst--;
+            System.out.println();
+        }
 
 
 
