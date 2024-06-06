@@ -109,7 +109,7 @@ public class geeksforgeeks_pattern_Questions {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the Number: ");
         int n = scn.nextInt();
-        int nst = 1;
+        int count = 1;
         int nsp = n-1;
 
         for (int i = 1; i <= n; i++) {
@@ -117,11 +117,20 @@ public class geeksforgeeks_pattern_Questions {
             for (int k = 1; k <= nsp; k++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= nst; j++) {
-                System.out.print("*");
+            int num1=count;
+            for (int j = 1; j <= count; j++) {
+
+                System.out.print(num1);
+                num1--;
 
         }
-        nst = nst + 2;
+            int num2=2;
+            for(int l=2;l<=count; l++){
+                System.out.print(num2);
+                num2++;
+            }
+
+        count = count + 1;
         nsp = nsp - 1;
         System.out.println();
     }
