@@ -394,25 +394,43 @@ public class geeksforgeeks_pattern_Questions {
 
 
         //18. Mirror Image Triangle Pattern
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the Number: ");
-        int n = scn.nextInt();
-        int nsp=0;
-        int nst=n;
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nsp2=n-1;
+//        int count=n;
+//
+//
+//        int nsp=0;
+//        int nst=n;
+//
+//        for(int i=1; i<=n-1; i++){
+//            for(int j=1; j<=nsp; j++){
+//                System.out.print(" ");
+//            }
+//            int num=i;
+//            for(int k=1; k<=nst; k++){
+//                System.out.print(num+" ");
+//                num++;
+//            }
+//            nsp++;
+//            nst--;
+//            System.out.println();
+//        }
+//
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=nsp2; j++){
+//                System.out.print(" ");
+//            }
+//            for(int k=count; k<=n; k++){
+//                System.out.print(k+" ");
+//            }
+//            nsp2--;
+//            count--;
+//            System.out.println();
+//
+//        }
 
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=nsp; j++){
-                System.out.print(" ");
-            }
-            int num=i;
-            for(int k=1; k<=nst; k++){
-                System.out.print(num+" ");
-                num++;
-            }
-            nsp++;
-            nst--;
-            System.out.println();
-        }
 
 
 
