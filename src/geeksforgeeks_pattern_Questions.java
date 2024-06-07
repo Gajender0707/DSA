@@ -509,6 +509,41 @@ public class geeksforgeeks_pattern_Questions {
 
 
 
+        //21. Hollow Diamond Pyramid
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter the Number: ");
+        int n = scn.nextInt();
+        int nsp1=n-1;
+        int nsp2=1;
+
+        for(int i=1; i<=n; i++){
+            if(i==1){
+                for(int k=1; k<=nsp1; k++){
+                    System.out.print(" ");
+                }
+                System.out.println("*");
+            }
+            if(i>1){
+                for(int k=1; k<=nsp1; k++){
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+
+                for(int j=1; j<=nsp2; j++){
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                System.out.println();
+            }
+            nsp1--;
+            nsp2=nsp2+2;
+            System.out.println();
+        }
+
+
+
+
+
 
 
 
