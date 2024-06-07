@@ -434,6 +434,89 @@ public class geeksforgeeks_pattern_Questions {
 
 
 
+//        //19. Hollow Triangle Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=1;
+//        int nsp1=n-1;
+//        int nsp2=1;
+//        for(int l=1;l<=n; l++){
+//            System.out.print(" ");
+//        }
+//        System.out.println("*");
+//        for(int i=1; i<=n-2; i++){
+//
+//            for(int j=1; j<=nsp1; j++){
+//                System.out.print(" ");
+//            }
+//            System.out.print("*");
+//            for(int k=1; k<=nsp2; k++){
+//                System.out.print(" ");
+//            }
+//            System.out.print("*");
+//
+//            nsp1--;
+//            nsp2=nsp2+2;
+//            System.out.println();
+//        }
+//        for(int j=1; j<=nsp1; j++){
+//            System.out.print(" ");
+//        }
+//        for(int m=1; m<=nsp2+2; m++){
+//            System.out.print("*");
+//        }
+
+
+
+
+
+
+
+        //20. Hollow Reverse Triangle Pattern
+//        Scanner scn = new Scanner(System.in);
+//        System.out.println("Enter the Number: ");
+//        int n = scn.nextInt();
+//        int nst=n+5;
+//        int nsp1=0;
+//        int nsp2=n+2;
+//        for(int i=n; i>=1; i--){
+//            if(i==n){
+//                for(int j=1; j<=n+5; j++){
+//                    System.out.print("*");
+//                }
+//                System.out.println();
+//            }
+//            else if(i>1 || i<n){
+//                for(int k=1; k<=nsp1; k++){
+//                    System.out.print(" ");
+//                }
+//                System.out.print("*");
+//                for(int m=1;m<=nsp2; m++){
+//                    System.out.print(" ");
+//                }
+//                if(i>1){
+//                    System.out.print("*");
+//                }
+////                nsp1++;
+//                nsp2=nsp2-2;
+//                System.out.println();
+//            }
+//            nsp1++;
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
